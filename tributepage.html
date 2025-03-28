@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tribute Page</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            body{
+                font-family:'Times New Roman', Times, serif;
+                color: black;
+                background-color:#8abae6;
+                text-align: center;
+            }
+            .container{
+                max-width: 90rem;
+                margin: 2rem auto;
+                padding: 0px 2rem;
+            }
+            .header{
+                padding: 2rem;
+                text-align: center;
+                margin: 1rem 0px;
+            }
+
+            .header .title{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+
+            .header .description{
+                font-size: 1.5rem;
+            }
+
+            .tribute{
+                display: flex;
+                flex-direction: column;
+                max-width:100%;
+                align-items: center;
+                margin: auto;
+                background: #b2cee8;
+                color:black;
+                text-align: center;
+                padding: 1rem;
+            }
+
+            .tribute blockquote{
+                font-size: 2rem;
+                color: black;   
+                margin:flex;
+                font-family:'salina';
+            }
+
+            .logo img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.3s;
+        }
+
+        .logo:hover img {
+            transform: scale(1.1);
+        }
+            
+            .para{
+                margin-bottom: 1.2rem;
+                font-size: 50px;
+                line-height: 0;
+                text-align: center;
+                padding: 2rem;
+            }
+  
+           
+            .info{
+                background-color:#b2cee8 ;
+                margin: 1rem auto;
+                padding: 1.5rem;
+                max-width: 90%;
+                color: black;
+                font-style: Georgia,serif;
+                text-align: left;
+                border-radius: 10px;
+                
+                
+            }
+           .info h5{
+                font-size: 1.5rem;
+                text-align: center;
+           }
+
+
+           .info p{
+            text-align:left;
+           }
+           
+           .achivement1{
+            background-color:#b2cee8 ;
+                margin: 1rem auto;
+                padding: 1.5rem;
+                max-width: 90%;
+                color: black;
+                font-style: Georgia,serif;
+                text-align: left;
+                border-radius: 10px;
+           }
+           .achivement1 h5{
+            font-size: 1.5rem;
+                text-align: center;
+           }
+
+        .achivement2{
+            background-color:#b2cee8 ;
+                margin: 1rem auto;
+                padding: 1.5rem;
+                max-width: 90%;
+                color: black;
+                font-style: Georgia,serif;
+                text-align: left;
+                border-radius: 10px;
+        }
+        .achivement2 h5{
+            font-size: 1.5rem;
+            text-align: center;
+           }
+
+        .achivement3{
+            background-color:#b2cee8 ;
+                margin: 1rem auto;
+                padding: 1.5rem;
+                max-width: 90%;
+                color: black;
+                font-style: Georgia,serif;
+                text-align: left;
+                border-radius: 10px;
+        }
+        .achivement3 h5{
+            font-size: 1.5rem;  
+            text-align: center;
+           }
+
+        #container{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            min-height: 4px;
+            background-color:#8abae6;
+            flex-direction: column;
+        }
+        #container div{
+            display: flex;
+            height: 370%;
+            width: 335%;
+            background-color:#4093c1  ;
+           
+
+        }
+         /* Responsive Design */
+         @media (min-width: 768px) {
+            .tribute {
+                flex-direction: column-reverse;
+                justify-content: center;
+                gap: 2rem;
+            }
+            .info, .achivement1, .achivement2,.achivement3 {
+                max-width: 80%;
+            }
+        }
+        @media (min-width: 1024px) {
+            .tribute {
+                max-width: 80%;
+                margin: auto;
+            }
+            .info, .achivement1,.achivement2,.achivement3 {
+                max-width: 80%;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="title">The Real Iron Man </h1>
+            <p class="description">Entrepreneur, Engineer, and Inventor</p>
+        </header>
+
+        <section class="tribute">
+            <div class="tribute-text">
+                <blockquote><i>&nbsp;"The man who's bringing the future closer...."</i></b>
+                </blockquote>&nbsp;
+            </div>
+            <div class="logo">
+                <a href="https://upload.wikimedia.org">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg/220px-Elon_Musk_Royal_Society_%28crop1%29.jpg" alt="Elon Musk" width="250" height="250">
+                </a>
+            </div>
+        </section>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <section class="para">
+            <p><b>Elon Musk</b>&nbsp;&nbsp; </p><br></br>
+        </section>  
+
+
+         <div id="container">
+                <section class="info">
+                    <h5>Early Life </h5>
+               <p>
+                 At just 12 years old, he created and sold a video game called <i>Blastar</i>.Elon Reeve Musk is a visionary entrepreneur, engineer, and inventor known for his groundbreaking contributions including space exploration, electric vehicles, artificial intelligence, and renewable energy. 
+                 Born on June 28, 1971, in Pretoria, South Africa, Musk developed an early interest in technology and went on to study physics and economics at the University of Pennsylvania. 
+                 He then launched X.com, which evolved into PayPal and was acquired by <i>eBay for $1.5 billion.</i> </p>  
+                </section>
+                &nbsp;&nbsp;
+                 <section class="achivement1">
+                    <h5>Joined Tesla </h5>
+                 In 2004, he joined Tesla, transforming it into the leading electric vehicle manufacturer with innovations in battery technology and autonomous driving. 
+                 Musk also co-founded Neuralink, which develops brain-computer interfaces, and The Boring Company, focused on tunnel-based transportation solutions. His acquisition of Twitter in 2022, later rebranded as X, was part of his vision to create an "everything app.
+                 " Despite facing controversies, legal challenges, and project delays, Musk continues to push the boundaries of technology, advocating for AI safety, sustainable energy, and interplanetary exploration.
+                  
+                  </section>
+                  &nbsp;&nbsp;
+
+                  <section class="achivement2">
+                    <h5>SpaceX </h5>
+                  In 2002, Musk founded SpaceX with the ambitious goal of making space travel affordable and enabling human colonization of Mars. 
+                  His involvement with Tesla, beginning in 2004, transformed the electric vehicle market, leading to mass production of EVs and advancements in battery technology and self-driving systems.  
+                  He also established The Boring Company, which focuses on tunnel infrastructure and reducing urban congestion. 
+                  </section>
+                  &nbsp;&nbsp;
+
+                  <section class="achivement3">
+                    <h5>Twitter</h5>
+                    
+                   In 2022, Musk acquired Twitter (now rebranded as X) for $44 billion, aiming to turn it into a comprehensive platform for communication, payments, and artificial intelligence integration.
+                     Despite facing legal battles, business challenges, and public controversies, Musk remains committed to innovation, pushing humanity toward a future where space travel, AI, and clean energy are integral to daily life. 
+                     His relentless ambition and visionary thinking continue to redefine the possibilities of technology and progress.Under Elon Musk’s ownership, Twitter transitioned into "X" as part of a vision to make it an "everything app".
+                     </section>
+            
+            </section>
+            </div>
+        </section>
+    </body>
+</html>
